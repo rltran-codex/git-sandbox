@@ -26,3 +26,7 @@ if __name__ == "__main__":
     print(t)
     t = function_2(x, y)
     print(t)
+    msg = print_file("./input.txt")
+    print(msg)
+    t = useful_function(x, y)
+    print(t)
