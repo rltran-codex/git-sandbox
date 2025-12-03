@@ -15,6 +15,10 @@ def print_file(path: str) -> str:
         return "The file 'my_text_file.txt' was not found."
 
 
+def useful_function(x: int, y: int) -> int:
+    return x + y - y
+
+
 if __name__ == "__main__":
     x = 10
     y = 25
